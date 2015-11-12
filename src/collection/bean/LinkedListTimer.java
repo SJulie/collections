@@ -14,8 +14,9 @@ public class LinkedListTimer implements CollectionTimer {
         return firstList.size();
     }
 
-    public void addRandom() {
+    public int addRandom() {
         firstList.add(generator.nextInt());
+        return 0;
     }
 
     @Override

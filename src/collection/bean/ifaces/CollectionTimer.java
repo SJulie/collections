@@ -5,7 +5,7 @@ public interface CollectionTimer {
 
     int getSize();
 
-    void addRandom();
+    int addRandom();
 
     void addRandomToIndex(int index);
 

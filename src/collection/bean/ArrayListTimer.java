@@ -13,8 +13,9 @@ public class ArrayListTimer implements CollectionTimer {
         return firstList.size();
     }
     @Override
-    public void addRandom() {
+    public int addRandom() {
         firstList.add(generator.nextInt());
+        return 0;
     }
 
     @Override
