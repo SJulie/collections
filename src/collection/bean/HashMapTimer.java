@@ -10,12 +10,6 @@ public class HashMapTimer implements CollectionTimer {
     private Random generator = new Random();
     int index = 0;
 
-    public static int rand(int min, int max) {
-        Random rand = new Random();
-        int randomNum = rand.nextInt((max - min) + 1) + min;
-        return randomNum;
-    }
-
     @Override
     public int getSize() {
         return firstMap.size();
