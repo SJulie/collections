@@ -41,6 +41,6 @@ public class HashMapTimer implements CollectionTimer {
 
     @Override
     public void searchRandomFromIndex(int index) {
-        firstMap.containsKey(5000);
+        firstMap.containsKey(index);
     }
 }

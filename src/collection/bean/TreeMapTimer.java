@@ -10,11 +10,6 @@ public class TreeMapTimer implements CollectionTimer {
     private Random generator = new Random();
     int index = 0;
 
-    public static int rand(int min, int max) {
-        Random rand = new Random();
-        int randomNum = rand.nextInt((max - min) + 1) + min;
-        return randomNum;
-    }
 
     @Override
     public int getSize() {
@@ -41,6 +36,6 @@ public class TreeMapTimer implements CollectionTimer {
 
     @Override
     public void searchRandomFromIndex(int index) {
-        firstMap.containsKey(5000);
+        firstMap.containsKey(index);
     }
 }
